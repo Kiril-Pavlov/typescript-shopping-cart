@@ -1,0 +1,11 @@
+{
+    "products": [
+        {
+            "key": "item0001",
+            "name": "Product One",
+            "price": 9.99,
+            "imgUrl": "image url",
+            "description": "description"
+        }
+    ]
+}
