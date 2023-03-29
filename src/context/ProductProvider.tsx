@@ -9,8 +9,8 @@ export type ProductType={
 const initialState:ProductType[] = [
         {
             "key": "item0001",
-            "name": "Product One",
-            "price": 9.99,
+            "name": "Laptop 1",
+            "price": 599.99,
             "imgUrl": "image url",
             "description": "description"
         }
