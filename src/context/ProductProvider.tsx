@@ -1,3 +1,5 @@
+import { createContext, ReactElement } from "react"
+
 export type ProductType={
     key: string,
     name: string,
@@ -15,3 +17,11 @@ const initialState:ProductType[] = [
             "description": "description"
         }
 ]
+
+export type UseProductsContextType = {products: ProductType[]}
+
+const initContextState: UseProductsContextType = {products:[]}
+
+const ProductsContext = createContext<UseProductsContextType>(initContextState)
+
+type ChildrenType = { children?: ReactElement | ReactElement[] }
